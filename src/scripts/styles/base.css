@@ -1,0 +1,27 @@
+@import "normalize.css/normalize";
+@import "skeleton/css/skeleton";
+@import "node-waves/dist/waves";
+@import "animate.css/animate";
+@import "hint.css/hint";
+
+@import "./variables";
+@import "./animation";
+@import "./type";
+@import "./switch";
+@import "./toast";
+@import "./spinner";
+
+html,
+body {
+  width: 250px;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 100%;
+  padding-top: 35px;
+}
+.container {
+  padding-left: 0;
+  padding-right: 0;
+}
